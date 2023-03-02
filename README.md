@@ -80,7 +80,7 @@ func emptyFunction(v ...interface{}) {
 }
 ```
 
-What is `interface{}` used for?
+What is `interface{}` (an empty interface) used for?
 
 Complexity of search in a binary tree?
 
