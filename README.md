@@ -11,7 +11,6 @@ What does it print?
 ```
 for i:=0;i < 10;i++ {
     go func() {
-        v++
         fmt.Println("%d", i)
      }()
   }
@@ -58,7 +57,7 @@ var b2 B
 
 Is it a correct code?
 ```
-type A intterface{}
+type A interface{}
 type B=A
 func a(b B) {
 }
