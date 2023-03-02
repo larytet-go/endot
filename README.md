@@ -25,7 +25,7 @@ for i:=0;i < 10;i++ {
         v++
      }()
   }
-  fmt.Println("%d", d)
+  fmt.Println("%d", v)
 ```
 
 What does it print?
@@ -33,7 +33,7 @@ What does it print?
   for v := range []str{"1", "2", "3"} {
     go func() {
         fmt.Println(v)
-     }
+     }()
   }
 ```
 
