@@ -35,4 +35,7 @@ func emptyFunction(v ...interface{}) {
 
 What is `interface{}` used for?
 
+Complexity of search in a binary tree?
+
+Search in a sorted array is always faster than search in a binary tree: true or false?
 
