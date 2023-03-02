@@ -19,7 +19,7 @@ What does it print?
   }
 ```
 
-How to compare `b1` and `b2`?
+Write a boolean expression comparing `b1` and `b2`
 ```
 type C struct {
     c int
