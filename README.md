@@ -61,7 +61,10 @@ for i := 0;i < 1_000_000;i++ {
 ```
 
 
-How can I have an anymous interface?
+How can I have an anonymous interface? For exampe, can I get rid of the `I` in the following code?
+```
+type I interface{}
+```
 
 What is C in `ACID`?
 
