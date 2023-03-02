@@ -12,7 +12,7 @@ What does it print?
 for i:=0;i < 10;i++ {
     go func() {
         fmt.Println("%d", i)
-     }
+     }()
   }
 ```
 
