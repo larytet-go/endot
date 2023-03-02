@@ -19,6 +19,35 @@ What does it print?
   }
 ```
 
+How to compare `b1` and `b2`?
+```
+type C struct {
+    c int
+}
+
+type A struct {
+    c C
+}
+
+type B struct {
+    a A
+    b int
+    s *string
+}
+var b1 B
+var b2 B
+```
+
+Is it a correct code?
+```
+type A intterface{}
+type B=A
+func a(b B) {
+}
+```
+
+How can I have an anymous interface?
+
 What is C in `ACID`?
 
 loose coupling/tight coupling in architecture ?
