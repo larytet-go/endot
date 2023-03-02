@@ -11,9 +11,21 @@ What does it print?
 ```
 for i:=0;i < 10;i++ {
     go func() {
+        v++
         fmt.Println("%d", i)
      }()
   }
+```
+
+What does it print?
+```
+v := 0
+for i:=0;i < 10;i++ {
+    go func() {
+        v++
+     }()
+  }
+  fmt.Println("%d", i)
 ```
 
 What does it print?
