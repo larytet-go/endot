@@ -1,5 +1,11 @@
 # endot
 
+What is the difference between these two notations
+```
+var a []int{}
+
+a := []int{}
+```
 
 What does it print?
 ```
