@@ -46,6 +46,15 @@ func a(b B) {
 }
 ```
 
+What happens in this loop?
+```
+a := []int{}
+for i := 0;i < 1_000_000;i++ {
+    a = append(a, i)
+}
+```
+
+
 How can I have an anymous interface?
 
 What is C in `ACID`?
